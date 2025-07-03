@@ -22,7 +22,7 @@ members = [
 
 
 [dependencies]
-tokio-rustls = { version = "0.26.1" }
+tokio-rustls = { version = "0.25.0" }
 rustls-pemfile = "2.2.0"
 rabbitmq-stream-protocol = { version = "0.9", path = "protocol" }
 tokio = { version = "1.29.1", features = ["full"] }
